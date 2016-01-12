@@ -1,0 +1,75 @@
+/*************
+HEADER
+*************/
+
+span.icon-abtion-logo {
+  font-size: 2em;
+}
+
+#header h1 {
+  margin: 35px 0 0 50px;
+}
+
+#trigger-overlay .patty::after,
+#trigger-overlay .patty::before,
+#trigger-overlay .patty  {
+  width: 50px;
+}
+
+#trigger-overlay {
+  top: 52px;
+  right: 80px;
+  padding: 15px;
+}
+
+#trigger-overlay .patty::after {
+  top: 12px;
+}
+
+/**************
+LAYOUT
+**************/
+.content {
+  margin-top: 800px;
+}
+
+.container {
+  width: 1280px;
+}
+
+/**************
+VIDEO
+**************/
+
+#hero .video-teaser-play {
+  top: 400px;
+}
+
+#hero .hero-overlay {
+  height: 800px;
+}
+
+#hero .hero-overlay {
+  height: 800px;
+}
+
+#hero-about,
+#hero-kappture,
+#hero-licegame,
+#hero-lego,
+#hero-treo,
+#hero-work {
+  height: 800px;
+}
+
+.client {
+  width: 11.1%;
+}
+
+/*************
+FOOTER
+*************/
+
+#footer p {
+  font-size: 1.2em;
+}

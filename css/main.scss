@@ -1,0 +1,68 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "normalize",
+        "variables",
+        "fonts",
+        "mixins",
+        "gridset"
+;
+
+@import "base";
+
+/*********************
+LARGER MOBILE DEVICES
+*********************/
+@media only screen and (min-width: 481px) {
+
+	@import "481up";
+
+}
+
+/*********************
+TABLET & SMALLER LAPTOPS
+*********************/
+@media only screen and (min-width: 768px) {
+
+	@import "768up";
+
+}
+
+/*********************
+DESKTOP
+*********************/
+@media only screen and (min-width: 1030px) {
+
+	@import "1030up";
+
+}
+
+/*********************
+LARGE VIEWING SIZE
+*********************/
+@media only screen and (min-width: 1600px) {
+
+	// styles in 1240up.scss
+	@import "1600up";
+
+}

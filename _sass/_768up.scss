@@ -1,0 +1,43 @@
+/*************
+HEADER
+*************/
+
+span.icon-abtion-logo {
+  font-size: 1.4em;
+}
+
+#header h1 {
+  margin: 15px 0 0 25px;
+}
+
+#trigger-overlay .patty::after,
+#trigger-overlay .patty::before,
+#trigger-overlay .patty  {
+  width: 40px;
+}
+
+#trigger-overlay {
+  top: 22px;
+  right: 50px;
+}
+
+.container {
+  height: 100%;
+  margin: 0 40px;
+}
+
+#introduction {
+  padding: 10px 0;
+}
+
+.join {
+  padding: 40px 0;
+}
+
+/**********
+  CLIENTS
+***********/
+
+.client {
+  width: 33.3333%;
+}

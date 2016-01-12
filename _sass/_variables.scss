@@ -1,0 +1,26 @@
+/************
+  COLORS
+************/
+
+$text-color:      #252b33;
+$button-color:    #D54F7E;
+$button-hover:    darken($button-color, 10%);
+$white:           #FFF;
+$light-gray:      #f2f2f2;
+$client-hover:    darken($light-gray, 0.5%);
+$heading-color:   #252b33;
+$footer-color:    #353740;
+
+/************
+  TYPO
+************/
+
+$serif:           'proxima-nova', "Proxima Nova", "Helvetica Neue", "Helvetica";
+$base-font-size:  16px;
+
+
+/************
+  SPACES
+************/
+
+$space:           20px;
