@@ -1,15 +1,31 @@
 ---
-layout: default
+layout: works
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
+{% include works-head.html %}
+
+<div class="posts-content">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+    <section id="introduction">
+      <div class="container introduction">
+        <p class="post-subheading">{{ page.title }}</p>
+
+        {{ content }}
+
+      </div>
+    </section>
+
+  <div class="full-screen" style="background-image: url({{ page.imageFull }}); background-size: cover;"></div>
+
+  <section id="introduction">
+    <div class="container introduction">
+
+      {{ page.section2 }}
+
+    </div>
+  </section>
+
+
   </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-</article>
+</div>

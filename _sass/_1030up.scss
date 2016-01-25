@@ -21,10 +21,10 @@ span.icon-abtion-logo {
   right: 80px;
 }
 
-
 /************
 LAYOUT
 ************/
+
 
 .content {
   margin-top: 600px;
@@ -37,6 +37,20 @@ h2 {
   font-size: 3em;
 }
 
+p {
+  font-size: 1.3em;
+}
+
+
+/****************
+ABOUT
+****************/
+
+
+.team {
+  width: 16.6667%;
+  height: 16vw;
+}
 
 /**************
 VIDEO
@@ -62,7 +76,7 @@ VIDEO
   top: 300px;
   left: 50%;
   margin: -35px 0 0 -35px;
-  border: 2px solid $white;
+  border: 4px solid $white;
   z-index: 5;
   border-radius: 50%;
   cursor: pointer;
@@ -95,6 +109,57 @@ VIDEO
   width: 900px;
   margin: 0 auto;
 }
+
+/*************
+CASES
+*************/
+
+.inner h2 {
+  font-size: 5.5em;
+  opacity: .9;
+}
+
+.quote-padding {
+	padding: 100px 100px 50px 100px;
+}
+
+.case-quote-padding {
+  width: 100%;
+  padding: 160px 60px;
+}
+
+blockquote {
+  font-size: 1.5em;
+}
+
+.work-content {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.case-bg,
+.case-quote-img {
+    height: 550px;
+}
+
+.center-top {
+  height: 550px;
+}
+
+
+/************
+WORKS
+************/
+.full-screen {
+  height: 750px;
+}
+
+.play-icon-work {
+  & span {
+    border: 4px solid $lightblue;
+  }
+}
+
 
 /*************
 FOOTER

@@ -26,6 +26,10 @@ span.icon-abtion-logo {
   top: 12px;
 }
 
+.top-banner {
+  height: 900px;
+}
+
 /**************
 LAYOUT
 **************/
@@ -35,9 +39,10 @@ LAYOUT
 
 .container {
   width: 1280px;
+  padding: 8% 0 8% 0;
 }
 
-/**************
+/************
 VIDEO
 **************/
 
@@ -64,6 +69,45 @@ VIDEO
 
 .client {
   width: 11.1%;
+}
+
+/*************
+CASES
+*************/
+
+.inner h2 {
+  font-size: 5em;
+}
+
+.work-img {
+  height: 735px;
+}
+
+.work-content p {
+  width: 98%;
+}
+
+.work-content {
+  height: 650px;
+  margin: 0 auto;
+  width: 68%;
+}
+
+.case-bg,
+.case-quote-img {
+    height: 850px;
+}
+
+.center-top {
+  height: 850px;
+}
+
+blockquote {
+  font-size: 2.5em;
+}
+
+.case-quote-padding {
+  padding: 280px 160px;
 }
 
 /*************

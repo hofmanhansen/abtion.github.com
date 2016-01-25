@@ -2,14 +2,26 @@
   COLORS
 ************/
 
-$text-color:      #252b33;
-$button-color:    #D54F7E;
-$button-hover:    darken($button-color, 10%);
-$white:           #FFF;
-$light-gray:      #f2f2f2;
-$client-hover:    darken($light-gray, 0.5%);
-$heading-color:   #252b33;
-$footer-color:    #353740;
+$text-color:        #252b33;
+$button-color:      #D54F7E;
+$button-hover:      darken($button-color, 10%);
+$white:             #FFF;
+$dark-gray:         #333;
+$light-gray:         #e6e6e6;
+$light-gray:        #f2f2f2;
+$client-hover:      darken($light-gray, 0.5%);
+$heading-color:     #252b33;
+$footer-color:      #353740;
+$lightcoral:        lightcoral;
+$lightcoral-hover:  #D84B6A;
+$lightyellow:       lightyellow;
+$purple:            #404D6B;
+$purple-hover:      #475683;
+$mint-green:        #8EDFC8;
+$mint-green-hover:  #6BBEA2;
+$lightblue:         lightblue;
+$lightblue-hover:   darken(lightblue, 20%);
+$pink:              #BC425B;
 
 /************
   TYPO

@@ -10,6 +10,10 @@ span.icon-abtion-logo {
   margin: 15px 0 0 25px;
 }
 
+p {
+  font-size: 1.1em;
+}
+
 #trigger-overlay .patty::after,
 #trigger-overlay .patty::before,
 #trigger-overlay .patty  {
@@ -35,9 +39,111 @@ span.icon-abtion-logo {
 }
 
 /**********
-  CLIENTS
+LAYOUT
+***********/
+.last {
+  float: right !important;
+  margin-right: 0 !important;
+}
+
+.col-padding {
+  padding: 0 $space*1.5 0 0;
+}
+
+/************
+ABOUT
+*************/
+
+.team {
+  width: 25%;
+  height: 25vw;
+}
+
+/**********
+CLIENTS
 ***********/
 
 .client {
   width: 33.3333%;
+}
+
+/**********
+CASES
+**********/
+
+.work-content {
+  height: 415px;
+  margin: 0 40px;
+}
+
+.work-content:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+p.subheading {
+  padding-top: 20px;
+}
+
+.inner h2 {
+  font-size: 2.4em;
+}
+
+.work-img {
+  height: 500px;
+  width: 50%;
+  position: relative;
+  float: left;
+  margin-right: 40px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: table;
+}
+
+.col-2-text{
+    display: table;
+    width: 50%;
+  	height: 800px;
+  	background: #BC425B;
+  	color: #fff;
+}
+
+.case-quote-img {
+  height: 400px;
+}
+
+.case-bg {
+  height: 400px;
+}
+
+.work-small-img {
+  padding: $space*2;
+}
+
+.case-quote-padding {
+  padding: 80px 60px;
+  text-align: left;
+}
+
+.center-top {
+  height: 350px;
+  padding-top: 0;
+}
+
+.case-small-padding {
+  padding: $space*3 $space*5;
+}
+
+
+/***************
+WORKS
+***************/
+.full-screen {
+  height: 450px;
 }

@@ -1,0 +1,286 @@
+---
+layout: works
+title: Kappture
+permalink: /kappture/
+image: /assets/images/hero-kappture.jpg
+imageFull: /assets/images/location-indoors.jpg
+---
+
+<div class="posts-content">
+  <section id="introduction">
+    <div class="container introduction">
+      <p class="post-subheading">{{ page.title }}</p>
+      <h3>Remember anything, anytime in pictures</h3>
+      <p>With an ambition to reach 200 million users within five years, we were challenged to execute the idea of an app that can help users remember everything, anytime in pictures. The result is an fast as lightning hyprid app, who offers a more intuitive whay to take, categorize, tag and share photos of things you don’t whant to forget.</p>
+
+      <a class="play-icon-work" href="http://cocksandcows.dk/test" target="_blank"><span>&#9654;</span> Check it out</a>
+
+    </div>
+  </section>
+
+  <div class="lightcoral">
+    <div class="container">
+      <div class="m-all t1-t6 d1-d6">
+        <div class="center-top">
+          <div class="center-top-inner">
+            <p class="subheading">THE PROJECT</p>
+            <h3 class="white">From idea to product</h3>
+            <p>We were there from the start. The founder and his team came to us when Kappture was a rough, unstyled idea, and we worked with them to design the app from the ground up.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="m-all t7-t12 d7-d12">
+        <img class="case-small-padding" src="/assets/images/kapp-2.png" />
+      </div>
+
+      <div class="m-all t1-t6 d1-d6">
+        <img class="case-small-padding" src="/assets/images/kapp-3.png" />
+      </div>
+      <div class="m-all t7-t12 d7-d12">
+        <div class="center-top">
+          <div class="center-top-inner">
+            <p class="subheading">Agile development</p>
+            <h3 class="white">Try it!</h3>
+            <p>Following af agile scrum based development procress, we could act on new insigts as they appeared and ensured that all the knowledge we picked up a long the way was implemented in the finished prodcut.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="m-all t1-t6 d1-d6">
+    <div class="case-quote-img" style="background-image: url(/assets/images/mockup-kappture-3.jpg);">
+    </div>
+  </div>
+  <div class="case-bg yellow">
+   <div class="m-all t7-t12 d7-d12">
+      <div class="center-top">
+        <div class="center-top-inner">
+        <blockquote style="color: #333;">"There are huge prospects in the app, because it tabs directly into the modern shopping behavior. We know that 84% of the millennials consult user-generated content before making a purchase. An important prerequisite for succeeding with the app is timing - and we are going to nail it."</blockquote>
+        <cite style="color: #333;">KASPER HEIBØLL<br><span>FOUNDER</span></cite>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="m-all t-all d-all center">
+      <p class="subheading">THE TECHNOLOGY</p>
+      <h2>Fast and reliable</h2>
+      <p>To make this ambitious app a reality, we knew it had to be fast and reliable, so we used mature and proven technologies to craft a highly concurrent system. By ignoring trends and embracing pragmatism, we were able achieve stunning performance and efficiency, all while making the app exceptionally simple to maintain.</p>
+    </div>
+
+    <!-- EDITOR -->
+
+    <style type="text/css" media="screen">
+
+  	.ace_editor {
+  		margin: auto;
+  		height: 200px;
+  		width: 100%;
+  	}
+  	.scrollmargin {
+  		height: 80px;
+          text-align: center;
+  	}
+      </style>
+
+      <pre id="editor1">
+
+        (function() {
+      var ACE_NAMESPACE = "";
+
+      var global = (function() { return this; })();
+      if (!global && typeof window != "undefined") global = window; // strict mode
+
+
+      if (!ACE_NAMESPACE && typeof requirejs !== "undefined")
+          return;
+
+
+      var define = function(module, deps, payload) {
+          if (typeof module !== "string") {
+              if (define.original)
+                  define.original.apply(this, arguments);
+              else {
+                  console.error("dropping module because define wasn\'t a string.");
+                  console.trace();
+              }
+              return;
+          }
+          if (arguments.length == 2)
+              payload = deps;
+          if (!define.modules[module]) {
+              define.payloads[module] = payload;
+              define.modules[module] = null;
+          }
+      };
+
+      define.modules = {};
+      define.payloads = {};
+
+      /**
+       * Get at functionality define()ed using the function above
+       */
+      var _require = function(parentId, module, callback) {
+          if (typeof module === "string") {
+              var payload = lookup(parentId, module);
+              if (payload != undefined) {
+                  callback && callback();
+                  return payload;
+              }
+          } else if (Object.prototype.toString.call(module) === "[object Array]") {
+              var params = [];
+              for (var i = 0, l = module.length; i < l; ++i) {
+                  var dep = lookup(parentId, module[i]);
+                  if (dep == undefined && require.original)
+                      return;
+                  params.push(dep);
+              }
+              return callback && callback.apply(null, params) || true;
+          }
+      };
+
+      var require = function(module, callback) {
+          var packagedModule = _require("", module, callback);
+          if (packagedModule == undefined && require.original)
+              return require.original.apply(this, arguments);
+          return packagedModule;
+      };
+
+      var normalizeModule = function(parentId, moduleName) {
+          // normalize plugin requires
+          if (moduleName.indexOf("!") !== -1) {
+              var chunks = moduleName.split("!");
+              return normalizeModule(parentId, chunks[0]) + "!" + normalizeModule(parentId, chunks[1]);
+          }
+          // normalize relative requires
+          if (moduleName.charAt(0) == ".") {
+              var base = parentId.split("/").slice(0, -1).join("/");
+              moduleName = base + "/" + moduleName;
+
+              while(moduleName.indexOf(".") !== -1 && previous != moduleName) {
+                  var previous = moduleName;
+                  moduleName = moduleName.replace(/\/\.\//, "/").replace(/[^\/]+\/\.\.\//, "");
+              }
+          }
+          return moduleName;
+      };
+
+      /**
+       * Internal function to lookup moduleNames and resolve them by calling the
+       * definition function if needed.
+       */
+      var lookup = function(parentId, moduleName) {
+          moduleName = normalizeModule(parentId, moduleName);
+
+          var module = define.modules[moduleName];
+          if (!module) {
+              module = define.payloads[moduleName];
+              if (typeof module === 'function') {
+                  var exports = {};
+                  var mod = {
+                      id: moduleName,
+                      uri: '',
+                      exports: exports,
+                      packaged: true
+                  };
+
+                  var req = function(module, callback) {
+                      return _require(moduleName, module, callback);
+                  };
+
+                  var returnValue = module(req, exports, mod);
+                  exports = returnValue || mod.exports;
+                  define.modules[moduleName] = exports;
+                  delete define.payloads[moduleName];
+              }
+              module = define.modules[moduleName] = exports || module;
+          }
+          return module;
+      };
+
+      function exportAce(ns) {
+          var root = global;
+          if (ns) {
+              if (!global[ns])
+                  global[ns] = {};
+              root = global[ns];
+          }
+
+          if (!root.define || !root.define.packaged) {
+              define.original = root.define;
+              root.define = define;
+              root.define.packaged = true;
+          }
+
+          if (!root.require || !root.require.packaged) {
+              require.original = root.require;
+              root.require = require;
+              root.require.packaged = true;
+          }
+      }
+
+      exportAce(ACE_NAMESPACE);
+
+      })();
+
+      </pre>
+
+      <pre id="editor"></pre>
+
+      <!-- load ace -->
+      <script src="/js/ace/ace.js"></script>
+      <script>
+          var editor1 = ace.edit("editor1");
+          editor1.setTheme("ace/theme/tomorrow_night_eighties");
+          editor1.session.setMode("ace/mode/javascript");
+          editor1.setAutoScrollEditorIntoView(true);
+          editor1.setOption("maxLines", 30);
+          editor1.setOption("minLines", 2);
+      </script>
+
+      <div class="m-all t1-t4 d1-d4 col-padding">
+        <p class="subheading">
+          Ruby on Rails API
+        </p>
+        <p>
+          Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
+        </p>
+      </div>
+
+      <div class="m-all t5-t8 d5-d8 col-padding">
+        <p class="subheading">
+          BACKBONE.JS FRONTEND
+        </p>
+        <p>
+          Backbone.js is a very lightweight toolkit that provides models, controllers, and views. The models allow us to keep track of the data in our app, as well as organize it's business logic.
+        </p>
+      </div>
+
+      <div class="m-all t9-t12 d9-d12 col-padding">
+        <p class="subheading">
+          HERUKO HOST
+        </p>
+        <p>
+          Heroku is a state of the art platform as a service (PaaS) that enables us to build, run and scale our apps entirely in the cloud without any hassle.
+        </p>
+      </div>
+  </div>
+  <div class="m-all t1-t6 d1-d6">
+    <div class="case-quote-img" style="background-image: url(/assets/images/mockup-kappture-2.jpg);">
+    </div>
+  </div>
+  <div class="case-bg gray">
+   <div class="m-all t7-t12 d7-d12">
+      <div class="center-top">
+        <div class="center-top-inner">
+        <blockquote style="color: #fff;">"To make the app fast we had to come up with a lot of performance hacks. I am particularly fund of how we made the image load very smooth, by embedding a base64 encoded version in the JSON payload from the server. The preloaded image is blurry, but you can sense the color, contrast and contour and don't have to look at a white screen."</blockquote>
+        <cite style="color: #fff;">ANDERS SKOUBOE<br><span>APP DEVELOPER</span></cite>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
