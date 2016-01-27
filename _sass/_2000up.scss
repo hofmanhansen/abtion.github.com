@@ -10,6 +10,10 @@ span.icon-abtion-logo {
   margin: 35px 0 0 50px;
 }
 
+#trigger-overlay .patty {
+    margin: 9px 0;
+}
+
 #trigger-overlay .patty::after,
 #trigger-overlay .patty::before,
 #trigger-overlay .patty  {
@@ -17,11 +21,11 @@ span.icon-abtion-logo {
 }
 
 #trigger-overlay .patty::before {
-    top: 1px;
+    top: 3px;
 }
 
 #trigger-overlay.active .patty {
-    margin-top: -3px;
+    margin-top: -2px;
 }
 
 #trigger-overlay {
@@ -31,7 +35,7 @@ span.icon-abtion-logo {
 }
 
 #trigger-overlay .patty::after {
-  top: 12px;
+  top: 13px;
 }
 
 .top-banner {

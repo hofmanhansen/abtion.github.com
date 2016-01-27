@@ -88,8 +88,6 @@ LAYOUT
   width: 100%;
 }
 
-
-
 /**********
 ICONS
 **********/
@@ -98,6 +96,11 @@ ICONS
   font-size: 0.7em;
   line-height: 1;
   text-align: center;
+  padding: $space/2;
+  & a {
+    color: $white;
+    opacity: .7;
+  }
 }
 
 /***********
@@ -560,14 +563,14 @@ span.icon-abtion-logo {
 }
 
 #hero-work{
-  background: $dark-gray url('/assets/images/strokes.png') top center fixed;
+  background: $blue url('/assets/images/strokes.png') top center fixed;
   top: 0;
   background-size: contain;
 }
 
 
 #hero-contact {
-  background: $blue url('/assets/images/strokes.png') top center fixed;
+  background: $dark-gray url('/assets/images/strokes.png') top center fixed;
   top: 0;
   background-size: contain;
 }
