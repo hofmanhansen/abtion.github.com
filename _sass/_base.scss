@@ -95,8 +95,8 @@ ICONS
 .github {
   font-size: 0.7em;
   line-height: 1;
-  text-align: center;
-  padding: $space/2;
+  margin-top: $space/2;
+  padding: $space;
   & a {
     color: $white;
     opacity: .7;
