@@ -16,6 +16,14 @@ span.icon-abtion-logo {
   width: 50px;
 }
 
+#trigger-overlay .patty::before {
+    top: 1px;
+}
+
+#trigger-overlay.active .patty {
+    margin-top: -3px;
+}
+
 #trigger-overlay {
   top: 52px;
   right: 80px;
@@ -27,7 +35,7 @@ span.icon-abtion-logo {
 }
 
 .top-banner {
-  height: 900px;
+  height: 700px;
 }
 
 /**************
@@ -39,7 +47,7 @@ LAYOUT
 
 .container {
   width: 1280px;
-  padding: 8% 0 8% 0;
+  padding: 4% 0 4% 0;
 }
 
 /************
@@ -112,6 +120,20 @@ blockquote {
 
 .case-quote-padding {
   padding: 280px 160px;
+}
+
+/************
+CAREER
+************/
+
+.career {
+  & h2 {
+    font-size: 6em;
+  }
+}
+
+p.under-title {
+  font-size: 1.8em;
 }
 
 /*************
