@@ -691,6 +691,7 @@ text-transform: uppercase;
 .play-icon-work {
   font-size: 1.4em;
   color: $lightblue;
+  font-weight: 100;
   @include ease-2s;
   &:hover {
   color: $lightblue-hover;
