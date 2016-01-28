@@ -339,6 +339,7 @@ span.icon-abtion-logo {
 
 .overlay {
 	position: fixed;
+  overflow-y: scroll;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -350,8 +351,8 @@ span.icon-abtion-logo {
 .overlay nav {
 	text-align: center;
 	position: relative;
-	top: 50%;
-	height: 60%;
+	top: 40%;
+	height: 55%;
 	font-size: 30px;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -424,6 +425,13 @@ span.icon-abtion-logo {
 .overlay-hugeinc.close nav ul {
 	-webkit-transform: translateY(25%) rotateX(-35deg);
 	transform: translateY(25%) rotateX(-35deg);
+}
+
+body.prevent-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -moz-overflow: hidden;
 }
 
 /***************

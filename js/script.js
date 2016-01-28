@@ -15,16 +15,21 @@ jQuery(function($) {
           .addClass('close')
           .one(transitionEnd, function() {
             $overlay.removeClass('close');
+            $('body').removeClass('prevent-scroll');
           });
       } else {
         $overlay.addClass('open');
+        $('body').addClass('prevent-scroll');
+          this.render().$el.appendTo('body');
       }
     }
 
     $button.on('click', toggleMenu);
   }
 
-  document.getElementById('hero').addEventListener("click", changeColor);
+  var hero = document.getElementById('hero') || document.getElementById('hero-title') || document.getElementById('hero-work');
+  hero.addEventListener("click", changeColor);
+
 
   function changeColor() {
 
