@@ -88,15 +88,29 @@ LAYOUT
   width: 100%;
 }
 
+.center-top {
+  display: table;
+  height: 350px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: $space*2;
+}
+
+.center-top-inner {
+  color: $white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
 /**********
 ICONS
 **********/
 
 .github {
-  font-size: 0.7em;
+  font-size: 0.6em;
   line-height: 1;
   margin-top: $space/2;
-  padding: $space;
+  padding: $space/2;
   & a {
     color: $white;
     opacity: .7;
@@ -147,7 +161,12 @@ p.subheading {
 	font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $heading-color;
 }
 
@@ -338,6 +357,8 @@ span.icon-abtion-logo {
 }
 
 .overlay ul li {
+  font-size: .7em;
+  padding: $space*1.5;
 	display: block;
 	height: 20%;
 	height: calc(100% / 5);
@@ -568,7 +589,6 @@ span.icon-abtion-logo {
   background-size: contain;
 }
 
-
 #hero-contact {
   background: $dark-gray url('/assets/images/strokes.png') top center fixed;
   top: 0;
@@ -653,12 +673,6 @@ ABOUT
 POSTS
 ************/
 
-.cases-content {
-  position: relative;
-  margin-top: 56vw;
-  background: $white;
-}
-
 p.post-subheading {
 text-transform: uppercase;
 }
@@ -707,6 +721,12 @@ text-transform: uppercase;
 /*************
 CASES
 *************/
+
+.cases-content {
+  position: relative;
+  margin-top: 56vw;
+  background: $white;
+}
 
 .case-content {
   position: relative;
@@ -824,6 +844,20 @@ p.under-title {
    }
 }
 
+.work-small-img {
+  padding: 0 $space*2;
+  width: 100%;
+}
+
+.case-small-padding {
+  padding: $space;
+  width: 100%;
+}
+
+.case-bg {
+  height: 225vw;
+}
+
 /**********
 BG-COLORS
 ***********/
@@ -858,34 +892,6 @@ BG-COLORS
 
 .white {
   color: $white;
-}
-
-.work-small-img {
-  padding: 0 $space*2;
-  width: 100%;
-}
-
-.case-small-padding {
-  padding: $space;
-  width: 100%;
-}
-
-.case-bg {
-  height: 225vw;
-}
-
-.center-top {
-  display: table;
-  height: 350px;
-  width: 70%;
-  margin: 0 auto;
-  padding-top: $space*2;
-}
-
-.center-top-inner {
-  color: $white;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 /**************

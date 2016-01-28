@@ -25,11 +25,13 @@ span.icon-abtion-logo {
 LAYOUT
 ************/
 
-
 .content {
   margin-top: 600px;
 }
 
+.overlay ul li {
+  font-size: .9em;
+}
 
 /************
 ICONS
@@ -38,6 +40,7 @@ ICONS
 .github {
   padding: $space*2.5;
   margin-top: $space/2;
+  font-size: 0.7em;
 }
 
 /*************
@@ -51,11 +54,9 @@ p {
   font-size: 1.3em;
 }
 
-
 /****************
 ABOUT
 ****************/
-
 
 .team {
   width: 16.6667%;
@@ -157,7 +158,6 @@ blockquote {
   height: 550px;
 }
 
-
 /************
 WORKS
 ************/
@@ -170,7 +170,6 @@ WORKS
     border: 4px solid $lightblue;
   }
 }
-
 
 /************
 CAREER
