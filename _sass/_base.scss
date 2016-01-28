@@ -79,7 +79,7 @@ LAYOUT
 }
 
 .introduction {
-  padding: 40px 0 60px 0;
+  padding: 0 0 30px 0;
 }
 
 .full-width {
@@ -433,7 +433,7 @@ span.icon-abtion-logo {
 
 .client {
   width: 50%;
-  height: 250px;
+  height: 34vw;
   position: relative;
   float: left;
   border-left: 1px solid #f2f2f2;
@@ -951,6 +951,15 @@ CAREERS
   opacity: 0.7;
 }
 
+/***************
+CLIENTS
+***************/
+
+.clients-content {
+  margin-top: $space*4;
+  position: relative;
+  background: $white;
+}
 
 /***************
 FOOTER
