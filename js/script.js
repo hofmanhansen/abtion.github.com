@@ -8,7 +8,7 @@ jQuery(function($) {
     function toggleMenu() {
       var open = $overlay.hasClass('open');
       $button.toggleClass('active', !open);
-      
+
       if (open) {
         $overlay
           .removeClass('open')
@@ -23,6 +23,17 @@ jQuery(function($) {
 
     $button.on('click', toggleMenu);
   }
+
+  document.getElementById('hero').addEventListener("click", changeColor);
+
+  function changeColor() {
+
+    $(".icon-abtion-logo").css("color", "black");
+    document.styleSheets[0].addRule('#trigger-overlay .patty::after','background-color: #333;');
+    document.styleSheets[0].addRule('#trigger-overlay .patty::before','background-color: #333;');
+    document.styleSheets[0].addRule('#trigger-overlay .patty','background-color: #333;');
+    return false;
+}
 
   function videoHero() {
     var width = 1280,
