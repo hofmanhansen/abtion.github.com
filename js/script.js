@@ -47,7 +47,9 @@ jQuery(function($) {
         $hero = $('#hero'),
         $video = null,
         video = null,
+        controls= false,
         $teaser = $('.video-teaser video');
+
 
     $hero.on('click', function() {
       if (playing) {
