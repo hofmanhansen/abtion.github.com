@@ -457,6 +457,7 @@ body.prevent-scroll {
   display: block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  @include transition(.4s ease);
 }
 
 .client:hover{
@@ -560,6 +561,7 @@ body.prevent-scroll {
   opacity: .5;
   z-index: 1;
   transition: opacity .5s ease;
+  @include transition(.5s ease);
 }
 
 #hero.video-play .full-video {
@@ -567,7 +569,6 @@ body.prevent-scroll {
   top: 0;
   left: 0;
   width: 100%;
-  // height: 84vw;
   z-index: 1;
   background: url('/assets/images/teaser.jpg') center center;
   background-size: cover;
@@ -1002,6 +1003,7 @@ CLIENTS
   margin-top: $space*4;
   position: relative;
   background: $white;
+  @include transition(5s ease);
 }
 
 /***************
