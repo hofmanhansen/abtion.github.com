@@ -55,12 +55,39 @@ LAYOUT
 }
 
 /************
-ICONS
+VIDEO
 ************/
 
-.github {
-  padding: $space*1.7;
+#hero .video-teaser video {
+width: 100%;
 }
+
+#hero .video-teaser {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56.4vw;
+}
+
+#hero .hero-overlay {
+  height: 56.4vw;
+}
+
+#hero-about,
+#hero-kappture,
+#hero-licegame,
+#hero-lego,
+#hero-treo,
+#hero-work,
+#hero-contact
+ {
+  height: 56.4vw;
+}
+.content {
+  margin-top: 56.4vw;
+}
+
 
 /************
 ABOUT

@@ -37,12 +37,6 @@ LAYOUT
 ICONS
 ************/
 
-.github {
-  padding: $space*2.5;
-  margin-top: $space/2;
-  font-size: 0.7em;
-}
-
 /*************
 TYPO
 *************/
@@ -112,6 +106,10 @@ VIDEO
   margin: -12px 0 0 -5px;
 }
 
+#hero .video-teaser video {
+  width: 100%;
+}
+
 .client {
   width: 16.6667%;
 }
@@ -179,6 +177,14 @@ CAREER
     font-size: 4em;
     margin-top: $space*7;
   }
+}
+
+/************
+EDITOR
+************/
+
+.ace_editor {
+  width: 100%;
 }
 
 /*************

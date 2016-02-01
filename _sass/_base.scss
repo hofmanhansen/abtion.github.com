@@ -38,11 +38,11 @@ button {
   background: #fff;
   position: relative;
   z-index: 10;
-  margin-top: 56.4vw;
+  margin-top: 84vw;
 }
 
 .content video {
-  margin-top: 56.4vw;
+  margin-top: 84vw;
 }
 
 .align-center {
@@ -106,21 +106,13 @@ LAYOUT
 ICONS
 **********/
 
-.test {
-  background: #fff200;
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  z-index: 899999999999999999;
-  top: 0;
-  left: 0;
-}
-
 .github {
   font-size: 0.6em;
   line-height: 1;
   margin-top: $space/2;
   text-align: center;
+  width: 60px;
+  margin: 0 auto;
   & a {
     color: $white;
     opacity: .7;
@@ -532,13 +524,13 @@ body.prevent-scroll {
   top: 0;
   left: 0;
   width: 100%;
-  height: 56.4vw;
+  height: 84vw;
   overflow: hidden;
   z-index: 0;
 }
 
 #hero .video-teaser video {
-  width: 100%;
+  // width: 100%;
   height: auto;
   position: fixed;
   top: 0;
@@ -564,7 +556,7 @@ body.prevent-scroll {
   top: 0;
   left: 0;
   width: 100%;
-  height: 56.4vw;
+  height: 84vw;
   opacity: .5;
   z-index: 1;
   transition: opacity .5s ease;
@@ -590,7 +582,7 @@ body.prevent-scroll {
 #hero-contact
  {
   width: 100%;
-  height: 56.4vw;
+  height: 84vw;
   position: fixed;
   float: left;
   background-size: cover;
@@ -978,6 +970,19 @@ CLIENTS
   margin-top: $space*4;
   position: relative;
   background: $white;
+}
+
+/***************
+EDITOR
+***************/
+
+.ace_editor {
+  margin: auto;
+  width: 90%;
+}
+.scrollmargin {
+  height: 80px;
+  text-align: center;
 }
 
 /***************
