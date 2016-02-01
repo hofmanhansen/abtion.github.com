@@ -39,6 +39,7 @@ button {
   position: relative;
   z-index: 10;
   margin-top: 84vw;
+  @include transition(.5s ease);
 }
 
 .content video {
@@ -295,7 +296,7 @@ span.icon-abtion-logo {
     height: 2px;
     margin: 10px 0;
     width: 30px;
-    @include ease-2s;
+    @include transition(.3s ease);
 }
 
 #trigger-overlay .patty::after,
@@ -306,7 +307,7 @@ span.icon-abtion-logo {
     height: 2px;
     position: absolute;
     width: 30px;
-    @include ease-2s;
+    @include transition(.3s ease);
 }
 
 #trigger-overlay .patty::before {
@@ -323,7 +324,6 @@ span.icon-abtion-logo {
 #trigger-overlay.active .patty::before {
   margin-top: 10px;
 }
-
 
 /**********************
   NAVIGATION OVERLAY
@@ -498,7 +498,7 @@ body.prevent-scroll {
   padding: 0 20px;
   line-height: 150%;
   @include transform-y-plus-20px;
-  @include ease-2s;
+  @include transition(.2s ease);
 }
 
 .client:hover .name,
@@ -631,8 +631,8 @@ body.prevent-scroll {
 }
 
 #hero .video-teaser-play {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   top: 43vw;
   left: 50%;
@@ -661,8 +661,6 @@ body.prevent-scroll {
   z-index: 10;
   margin: -12px 0 0 -5px;
 }
-
-
 
 /************
 ABOUT

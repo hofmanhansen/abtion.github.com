@@ -27,6 +27,14 @@
           transition: all .2s ease;
 }
 
+@mixin transition($args) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
 @mixin transform-y-minus-20px {
   -webkit-transform: translateY(-20px);
      -moz-transform: translateY(-20px);
