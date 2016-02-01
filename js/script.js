@@ -37,6 +37,8 @@ jQuery(function($) {
     document.styleSheets[0].addRule('#trigger-overlay .patty::after','background-color: #333;');
     document.styleSheets[0].addRule('#trigger-overlay .patty::before','background-color: #333;');
     document.styleSheets[0].addRule('#trigger-overlay .patty','background-color: #333;');
+    document.styleSheets[0].addRule('#hero .video-teaser','display: none;');
+    document.styleSheets[0].addRule('.content','margin-top: 50vw;');
     return false;
 }
 
