@@ -888,6 +888,20 @@ p.under-title {
    }
 }
 
+.cadetblue-work {
+    background-color: $cadetblue;
+    color: $white;
+    padding: 20px 0 50px 0;
+    & h2 {
+      color: $white;
+    }
+    &:hover {
+    	background-color: $cadetblue-hover;
+    	transition: background-color 0.5s ease;
+   }
+}
+
+
 .work-small-img {
   padding: 0 $space*2;
   width: 100%;
