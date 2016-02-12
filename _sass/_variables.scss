@@ -21,9 +21,10 @@ $purple-hover:      #475683;
 $mint-green:        #6BBEA2;
 $mint-green-hover:  #8EDFC8;
 $lightblue:         lightblue;
-$lightblue-hover:   darken(lightblue, 20%);
+$lightblue-hover:   darken($lightblue, 20%);
 $pink:              #BC425B;
 $cadetblue:         cadetblue;
+$cadetblue-hover:   darken ($cadetblue, 20%);
 
 /************
   TYPO
