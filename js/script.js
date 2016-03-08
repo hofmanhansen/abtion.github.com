@@ -27,7 +27,7 @@ jQuery(function($) {
     $button.on('click', toggleMenu);
   }
 
-  var hero = document.getElementById('hero') || document.getElementById('hero-title') || document.getElementById('hero-work');
+  var hero = document.getElementById('hero') || document.getElementById('hero-career') || document.getElementById('hero-title') || document.getElementById('hero-work');
   hero.addEventListener("click", changeColor);
 
 
