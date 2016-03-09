@@ -601,9 +601,19 @@ body.prevent-scroll {
 }
 
 #hero-contact {
-  background: $dark-gray url('/assets/images/strokes.png') top center fixed;
+  background: $light-blue;
   top: 0;
   background-size: contain;
+  & p {
+    color: $white;
+    font-size: 1.2em;
+    font-weight: 500;
+    opacity: 1;
+  }
+}
+
+.container__align--left {
+  margin-left: 20px;
 }
 
 #hero-page {

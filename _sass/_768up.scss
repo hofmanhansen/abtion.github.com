@@ -38,6 +38,7 @@ p {
   padding: 40px 0;
 }
 
+
 /**********
 LAYOUT
 ***********/
@@ -53,6 +54,12 @@ LAYOUT
 .client {
   height: 250px;
 }
+
+.float--right {
+  float: right;
+}
+
+
 
 /************
 VIDEO
@@ -90,6 +97,16 @@ width: 100%;
 }
 .content {
   margin-top: 56.4vw;
+}
+
+#hero-contact {
+  & p {
+    font-size: 1.6em;
+  }
+}
+
+.container__align--left {
+  margin-left: 40px;
 }
 
 /************

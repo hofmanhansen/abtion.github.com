@@ -58,6 +58,10 @@ LAYOUT
   padding: 4% 0 4% 0;
 }
 
+.container__align--left {
+  margin-left: 110px;
+}
+
 /************
 VIDEO
 **************/
@@ -79,7 +83,8 @@ VIDEO
 #hero-licegame,
 #hero-lego,
 #hero-treo,
-#hero-work {
+#hero-work,
+#hero-contact {
   height: 800px;
 }
 

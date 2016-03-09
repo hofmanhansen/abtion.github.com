@@ -81,6 +81,10 @@ VIDEO
   width: 100%;
 }
 
+#hero-contact {
+  height: 600px;
+}
+
 .client {
   width: 16.6667%;
 }
@@ -88,6 +92,10 @@ VIDEO
 .container {
   width: 900px;
   margin: 0 auto;
+}
+
+.container__align--left {
+  margin-left: 60px;
 }
 
 /*************
