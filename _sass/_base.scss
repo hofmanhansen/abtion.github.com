@@ -604,6 +604,9 @@ body.prevent-scroll {
   background: $light-blue;
   top: 0;
   background-size: contain;
+  & h1 {
+    opacity: 1;
+  }
   & p {
     color: $white;
     font-size: 1.2em;
