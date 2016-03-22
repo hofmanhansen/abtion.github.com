@@ -24,7 +24,6 @@ We are looking for a Front-End Developer to our team in Copenhagen.
 - You prefer to work from your terminal, and you are comfortable with GitHub
 - We strive to build the software of tomorrow, so you must have a love for technical challenges, and a willingness to learn continuously.
 
-
 ## More about Abtion
 
 Abtion build software that millions of people click, tap, pinch and zoom every day. You may not know it, but you have probably interacted with something that we have built.
