@@ -2,7 +2,7 @@
 layout: post
 title:  "Front-End Web Developer"
 underTitle:  "Odense | Full-time"
-date:   2016-03-07 11:13:12 +0100
+date:   2016-05-03 11:13:12 +0100
 categories: career
 ---
 
