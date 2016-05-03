@@ -41,4 +41,4 @@ Abtion strongly support diversity in the workforce and encourage all potential c
 
 Send your resumé, links and/or GitHub profile to projects you have been working on to Helle-Vibeke Schütte at [hvs@abtion.com](mailto:hvs@abtion.com). If you have any questions please do not hesitate to call [+45 20 97 76 78](tel:+4520977678).
 
-Application deadline: April 18, 2016.
+Application deadline: June 2, 2016.
