@@ -2,7 +2,7 @@
 layout: post
 title:  "Back-End Web Developer"
 underTitle:  "Odense | Full-time"
-date:   2016-05-03 11:13:12 +0100
+date:   2016-05-02 11:13:12 +0100
 categories: career
 ---
 
