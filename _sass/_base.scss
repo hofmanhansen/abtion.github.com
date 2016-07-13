@@ -186,6 +186,15 @@ LAYOUT
   visibility: visible !important;
 }
 
+.slideRight {
+	animation-name: slideRight;
+	-webkit-animation-name: slideRight;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+	visibility: visible !important;
+}
 
 
 

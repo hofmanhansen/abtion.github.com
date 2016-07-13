@@ -100,8 +100,29 @@ jQuery(function($) {
     });
   });
 
-  var $containerHeight = $('#containerHeight').height();
+  $(window).scroll(function() {
+		$('#basket').each(function(){
+		var imagePos = $(this).offset().top;
 
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+600) {
+				$(this).addClass("slideRight");
+			}
+		});
+	});
+
+  $(window).scroll(function() {
+    $('#games').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+700) {
+        $(this).addClass("fadeIn");
+      }
+    });
+  });
+
+  var $containerHeight = $('#containerHeight').height();
   $('.arrow__horizontal--container ').css('height', $containerHeight);
 
 
