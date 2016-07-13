@@ -224,11 +224,13 @@ image: /assets/images/sky.jpg
     </div>
   </div>
   <div class="clear"></div>
-  <div class="container">
-    <h2>We are hiring</h2>
-    <p>We are looking for talented developers to join our teams in Copenhagen and Odense. Want to work at Abtion?</p>
-    <a href="/careers"><button>Open positions</button></a>
-    <div class="space"></div>
-    <div class="space"></div>
-  </div>
+  {% if site.categories.career != null %}
+    <div class="container">
+      <h2>We are hiring</h2>
+      <p>We are looking for talented developers to join our teams in Copenhagen and Odense. Want to work at Abtion?</p>
+      <a href="/careers"><button>Open positions</button></a>
+      <div class="space"></div>
+      <div class="space"></div>
+    </div>
+  {% endif %}
 </div>
