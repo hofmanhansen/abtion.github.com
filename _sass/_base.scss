@@ -26,6 +26,10 @@ button {
   clear: both;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .space {
   height: $space;
 }
@@ -125,15 +129,37 @@ LAYOUT
 .fadeIn {
 	animation-name: fadeIn;
 	-webkit-animation-name: fadeIn;
-
 	animation-duration: 1.5s;
 	-webkit-animation-duration: 1.5s;
-
 	animation-timing-function: ease-in-out;
 	-webkit-animation-timing-function: ease-in-out;
-
 	visibility: visible !important;
 }
+
+.hatch{
+	animation-name: hatch;
+	-webkit-animation-name: hatch;
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	visibility: visible !important;
+}
+
+.slideLeft {
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+	visibility: visible !important;
+}
+
+
 
 
 /**********

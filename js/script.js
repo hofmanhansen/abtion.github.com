@@ -77,4 +77,28 @@ jQuery(function($) {
   if (smoothScroll && smoothScroll.init) {
     smoothScroll.init();
   }
+
+  $(window).scroll(function() {
+		$('#hatch').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+500) {
+				$(this).addClass("hatch");
+			}
+		});
+	});
+
+  $(window).scroll(function() {
+    $('#slideLeft').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+600) {
+        $(this).addClass("hatch");
+      }
+    });
+  });
+
+
 });
