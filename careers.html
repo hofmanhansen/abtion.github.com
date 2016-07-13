@@ -12,7 +12,7 @@ headerSubText: Joining Abtion means working on exciting projects with our team i
   <section id="introduction">
     <div class="container jobs">
       <section id="archive">
-        {% if site.posts == null %}
+        {% if site.categories.career == null %}
           <p>We're not hiring right now</p>
         {% else %}
         {%for post in site.posts %}
