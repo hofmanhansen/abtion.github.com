@@ -46,6 +46,10 @@ p {
   padding: 40px 0;
 }
 
+.top-banner {
+  height: 400px;
+}
+
 
 /**********
 LAYOUT
@@ -107,8 +111,7 @@ width: 100%;
 #hero-licegame,
 #hero-lego,
 #hero-treo,
-#hero-work,
-#hero-contact
+#hero-work
  {
   height: 56.4vw;
 }
@@ -224,12 +227,6 @@ p.subheading {
 /**************
 CAREER
 ***************/
-
-.career {
-  & h2 {
-    margin-top: $space*8;
-  }
-}
 
 p.under-title {
   font-size: 1.4em;

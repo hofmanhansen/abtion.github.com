@@ -42,7 +42,6 @@ button {
   display: none;
 }
 
-
 .content {
   background: #fff;
   position: relative;
@@ -76,6 +75,7 @@ LAYOUT
 }
 
 .container {
+  position: relative;
   height: 100%;
   margin: 0 20px;
 }
@@ -674,8 +674,7 @@ body.prevent-scroll {
 #hero-licegame,
 #hero-lego,
 #hero-treo,
-#hero-work,
-#hero-contact
+#hero-work
  {
   width: 100%;
   height: 84vw;
@@ -693,16 +692,23 @@ body.prevent-scroll {
   background: $blue url('/assets/images/strokes.png') top center fixed;
   top: 0;
   background-size: contain;
+  h2 {
+    color: $white;
+  }
 }
 
 #hero-contact {
+  position: relative;
   background: $light-blue;
   top: 0;
   background-size: contain;
-  & h1 {
+  h1 {
     opacity: 1;
   }
-  & p {
+  h2 {
+    color: $white;
+  }
+  p {
     color: $white;
     font-size: 1.2em;
     font-weight: 500;
@@ -889,13 +895,16 @@ CASES
 }
 
 .top-banner {
-  height: 100%;
+  position: relative;
+  height: 300px;
 }
 
 .center {
-  display: table;
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  -webkit-transform: translate(0%, -40%);
+  transform: translate(0%, -40%);
 }
 
 .inner h2 {
@@ -1096,7 +1105,9 @@ CAREERS
   & h2 {
     color: $white;
     font-size: 2em;
-    margin-top: 90px;
+  }
+  p {
+    font-size: 12px;
   }
   & h3 {
     color: $white;

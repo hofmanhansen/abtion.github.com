@@ -33,6 +33,9 @@ LAYOUT
   font-size: .9em;
 }
 
+.top-banner {
+  height: 600px;
+}
 
 /*************
 TYPO
@@ -71,6 +74,13 @@ VIDEO
   height: 600px;
 }
 
+#hero-work,
+#hero-contact {
+  h2 {
+    font-size: 4em;
+  }
+}
+
 #hero .video-teaser-play {
   width: 70px;
   height: 70px;
@@ -79,10 +89,6 @@ VIDEO
 
 #hero .video-teaser video {
   width: 100%;
-}
-
-#hero-contact {
-  height: 600px;
 }
 
 .client {
@@ -122,7 +128,7 @@ blockquote {
 }
 
 .work-content {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -154,7 +160,6 @@ CAREER
 .career {
   & h2 {
     font-size: 4em;
-    margin-top: $space*7;
   }
 }
 
