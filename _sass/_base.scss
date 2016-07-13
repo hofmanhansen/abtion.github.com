@@ -38,6 +38,11 @@ button {
   height: $space*2;
 }
 
+.mobile--hide {
+  display: none;
+}
+
+
 .content {
   background: #fff;
   position: relative;
@@ -126,6 +131,25 @@ LAYOUT
   }
 }
 
+.arrow__horizontal--container {
+  position: relative;
+  width: 100%;
+}
+
+.arrow__horizontal--inner {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  img {
+    position: relative;
+    width: 60%;
+  }
+}
+
 .fadeIn {
 	animation-name: fadeIn;
 	-webkit-animation-name: fadeIn;
@@ -149,14 +173,17 @@ LAYOUT
 	visibility: visible !important;
 }
 
-.slideLeft {
-	animation-name: slideLeft;
-	-webkit-animation-name: slideLeft;
-	animation-duration: 1s;
-	-webkit-animation-duration: 1s;
-	animation-timing-function: ease-in-out;
-	-webkit-animation-timing-function: ease-in-out;
-	visibility: visible !important;
+.stretchRight {
+	animation-name: stretchRight;
+	-webkit-animation-name: stretchRight;
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	-webkit-animation-timing-function: ease-out;
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
+  visibility: visible !important;
 }
 
 
@@ -241,7 +268,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: $space;
   font-weight: 200;
   opacity: 0.8;

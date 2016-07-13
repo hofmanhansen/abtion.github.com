@@ -14,6 +14,14 @@ p {
   font-size: 1.1em;
 }
 
+.mobile--hide {
+  display: block;
+}
+
+.desktop--hide {
+  display: none;
+}
+
 #trigger-overlay .patty::after,
 #trigger-overlay .patty::before,
 #trigger-overlay .patty  {
