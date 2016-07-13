@@ -22,7 +22,7 @@ p {
 
 #trigger-overlay {
   top: 22px;
-  right: 50px;
+  right: 20px;
 }
 
 .container {
@@ -64,6 +64,10 @@ LAYOUT
   height: 400px;
 }
 
+
+p.post-subheading {
+padding-top: 0;
+}
 
 
 /************
