@@ -103,6 +103,39 @@ LAYOUT
   vertical-align: middle;
 }
 
+.info__circle--container {
+  position: relative;
+  background: $lightblue;
+  color: $white;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  border-radius: 50%;
+  p {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.fadeIn {
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;
+
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+
+	visibility: visible !important;
+}
+
+
 /**********
 ICONS
 **********/
@@ -975,7 +1008,7 @@ CAREERS
 **************/
 
 .jobs {
-  padding-top: $space;
+  padding: $space 0 $space 0;
   & h2 {
     line-height: 1;
     margin-bottom: 0;
