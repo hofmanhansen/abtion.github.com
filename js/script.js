@@ -116,7 +116,7 @@ jQuery(function($) {
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+700) {
+      if (imagePos < topOfWindow+500) {
         $(this).addClass("fadeIn");
       }
     });

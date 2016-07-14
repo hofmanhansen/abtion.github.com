@@ -151,8 +151,17 @@ CASES
 **********/
 
 .work-content {
-  height: 415px;
-  margin: 0 40px;
+  height: 485px;
+}
+
+.work__content--inner {
+  position: absolute;
+  padding: 0;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .work-contet--height {
@@ -177,7 +186,7 @@ p.subheading {
 }
 
 .work-img {
-  height: 500px;
+  height: 485px;
   width: 50%;
   position: relative;
   float: left;
@@ -230,7 +239,6 @@ CAREER
 
 p.under-title {
   font-size: 1.4em;
-  margin-bottom: $space*6;
 }
 
 /***************

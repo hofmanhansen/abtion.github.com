@@ -63,15 +63,21 @@ LAYOUT
 ************/
 
 .work-content {
+  position: relative;
   height: 100%;
-  margin: 0 20px;
+  width: 100%;
 }
+
 .work-content:after {
   content: ".";
   display: block;
   height: 0;
   visibility: hidden;
   clear: both;
+}
+
+.work__content--inner {
+  padding: 20px;
 }
 
 .container {
@@ -272,7 +278,6 @@ h2 {
   font-size: 2em;
   line-height: 1.2;
   font-weight: 200;
-  margin-bottom: $space;
   opacity: 0.8;
 }
 
@@ -681,7 +686,6 @@ body.prevent-scroll {
   position: fixed;
   float: left;
   background-size: cover;
-  padding-top: 50px;
   box-sizing: border-box;
   -webkit-transition: opacity .5s;
   -o-transition: opacity .5s;
@@ -735,7 +739,7 @@ body.prevent-scroll {
 
 #hero-title {
   width: 100%;
-  height: 700px;
+  height: 620px;
   top: 0;
   position: fixed;
 }
@@ -918,7 +922,6 @@ p.under-title {
   display: table-cell;
   vertical-align: middle;
   float: left;
-  margin-bottom: $space*3;
 }
 
 .work-img {
@@ -931,6 +934,7 @@ p.under-title {
   background-repeat: no-repeat;
   background-position: center bottom;
   display: table;
+  z-index: 1;
 }
 
 .case-quote-img {
@@ -954,9 +958,9 @@ p.under-title {
 }
 
 .lightcoral-work {
+    position: relative;
     background-color: $lightcoral;
     color: $white;
-    padding: 20px 0 50px 0;
     & h2 {
       color: $white;
     }
@@ -967,7 +971,6 @@ p.under-title {
 }
 
 .yellow-work {
-  padding: 20px 0 50px 0;
   margin-right: 0;
   &:hover {
     background-color: $lightyellow;
@@ -983,7 +986,6 @@ p.under-title {
 .purple-work {
     background-color: $purple;
     color: $white;
-    padding: 20px 0 50px 0;
     & h2 {
       color: $white;
     }
@@ -996,7 +998,6 @@ p.under-title {
 .turkis-work {
     background-color: $mint-green;
     color: $white;
-    padding: 20px 0 50px 0;
     & h2 {
       color: $white;
     }
@@ -1009,7 +1010,6 @@ p.under-title {
 .cadetblue-work {
     background-color: $cadetblue;
     color: $white;
-    padding: 20px 0 50px 0;
     & h2 {
       color: $white;
     }
@@ -1139,7 +1139,6 @@ CLIENTS
 ***************/
 
 .clients-content {
-  margin-top: $space*4;
   position: relative;
   background: $white;
   @include transition(5s ease);
