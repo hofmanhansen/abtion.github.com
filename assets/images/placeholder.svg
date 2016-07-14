@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#32343E;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'ProximaNova-Regular';}
+	.st3{font-size:35.4759px;}
+</style>
+<rect class="st0" width="400" height="400"/>
+<g id="Layer_1">
+	<g id="camera">
+		<g>
+			<circle class="st1" cx="200" cy="180.5" r="22.1"/>
+			<path class="st1" d="M269.3,140.2h-38.6l-3.9-12.4c-0.6-2-1.6-3.5-3.5-3.5h-46.8c-1.9,0-2.9,1.6-3.5,3.5l-3.9,12.4h-38.6
+				c-1.9,0-3.5,1.6-3.5,3.5v76.2c0,1.9,1.6,3.5,3.5,3.5h138.6c1.9,0,3.5-1.6,3.5-3.5v-76.2C272.8,141.7,271.2,140.2,269.3,140.2z
+				 M200,215.5c-19.4,0-35.1-15.7-35.1-35.1c0-19.4,15.7-35.1,35.1-35.1s35.1,15.7,35.1,35.1S219.4,215.5,200,215.5z M244.2,158.4
+				c-2.9,0-5.2-2.4-5.2-5.2s2.4-5.2,5.2-5.2c2.9,0,5.2,2.4,5.2,5.2C249.4,156,247,158.4,244.2,158.4z"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 95.0118 279.6318)" class="st1 st2 st3">Coming soon</text>
+</g>
+</svg>
