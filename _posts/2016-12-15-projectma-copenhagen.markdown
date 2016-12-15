@@ -2,7 +2,7 @@
 layout: post
 title:  "Digital Projektleder"
 underTitle:  "København | Fuld tid"
-date:   2016-05-03 11:13:12 +0100
+date:   2016-12-15 09:26:12 +0100
 categories: career
 ---
 
