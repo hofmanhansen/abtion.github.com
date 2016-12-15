@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Project manager"
-underTitle:  "Copenhagen | Full-time"
+title:  "Digital Projektleder"
+underTitle:  "København | Fuld tid"
 date:   2016-05-03 11:13:12 +0100
 categories: career
 ---
