@@ -34,11 +34,8 @@ Hos Abtion vil du lede projekter hvor vi udvikler mobile apps, desktop applikati
 Du elsker projekter og du tager naturligt ansvar og forstår, at nok er du en del af teamet, men det er også dig der sikrer projektet kommer i gang og ligeledes bliver færdigt.
 
 - Du har ansvaret for vores fælles projekter, hvor du fungerer som bindeled mellem udviklere, kreative og kunden
-
 - Din kommunikation med kunden er altafgørende for et godt samarbejde. Du forstår at en stor del af et succesfuldt projekt i høj grad afhænger af forventningsafstemning både før, under og efter projektleverance.
-
 - Du rådgiver kunder om, hvilke løsninger, der bedst vil imødekomme deres og slutbrugernes behov.
-
 - Beslutningskyndig når det kommer til, hvad der giver mest værdi for kunden og slutbrugerne.
 
 ## Dine ansættelsesvilkår
